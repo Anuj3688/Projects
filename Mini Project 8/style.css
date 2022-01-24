@@ -1,0 +1,82 @@
+.container{
+    
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+body{
+    background-color: lightblue;
+    
+}
+
+
+.box{
+    margin: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+    margin: 10px;
+    font-weight: 100;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+label:hover{
+        color: lightblue;
+}
+
+input{
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    width: 70% ;
+    
+    transition: all 2s;
+}
+
+#check{
+    width: 20px;
+}
+
+input:hover{
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+input:active{
+    border: none;
+    border-bottom: 1px solid lightblue;
+}
+
+input:focus{
+    border: none;
+    
+    width: 100%;
+}
+
+input[type=submit]{
+    margin-left: 50px;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: white;
+    box-shadow: 10px ​11px 31px 3px lightgray;
+}
+
+input[type=submit]:hover{
+    background-color: blue;
+    font-weight: 600;
+}
+#box6{
+    border: none;
+}

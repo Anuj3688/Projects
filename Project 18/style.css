@@ -1,0 +1,81 @@
+body{
+    background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+.head{
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #FBAB7E;
+    margin-bottom: 15px;
+    color:aliceblue;
+    border-radius: 8px;
+    text-shadow: 4px 4px lightslategrey;
+}
+.Pro1{
+    padding: 10px;
+}
+.box{
+    display: inline-block;
+    height: 550px;
+    width: 380px;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+    /* border-radius: 20px; */
+    margin: 2px;
+    padding: 20px;
+}
+#box1{
+    box-sizing: border-box;
+    margin-left: 20px;
+    border-radius: 0px 20px 0px 20px;
+}
+#box2{
+    box-sizing: border-box;
+    margin-left: 15px;
+    border-radius: 20px 20px 0px 0px;
+}
+#box3{
+    box-sizing: border-box;
+    margin-left: 15px;
+    border-radius: 20px 0px 20px 0px;
+}
+img{
+    border: 1px solid pink;
+    border-radius: 8px;
+}
+.tt{
+    font-size: 30px;
+    text-align: center;
+}
+.td{
+    font-size: 20px;
+    text-align: center;
+}
+
+.dis{
+    margin-top: 20px;
+}
+.dd{
+    margin-top: 15px;
+}
+.chat{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+}

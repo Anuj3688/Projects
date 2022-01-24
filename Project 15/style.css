@@ -1,0 +1,48 @@
+#form1{
+    border: 1px solid gray;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: white;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    border: none;
+    display: inline-block;
+    width: 285px;
+}
+select{
+    margin-top: 5px;
+    border: none;
+    width: 280px;
+}
+body{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+textarea{
+    border: none;
+}
+
+#Sub{
+    width: 290px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+label{
+    font-size: 13px;
+    color: grey;
+}
+

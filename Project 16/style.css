@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#form1{
+    box-sizing: border-box;
+    width: 400px;
+    height: 450px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    margin: 40px auto;
+    border-bottom: 4px solid #8843F2;
+}
+.label{
+    margin-top: 8px;
+    font-family: 'Bitter', serif;
+}
+.head{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.inp{
+    display: inline-block;
+    width: 337px;
+    border: none;
+    border:1px solid #4facfe;
+}
+input{
+    border: none;
+    border:1px solid #4facfe;
+    height: 30px;
+}
+textarea{
+    margin-top: 5px;
+    border: none;
+    border-bottom:1px solid #4facfe;
+    border-left: 1px dotted #4facfe;
+    border-right: 1px dotted #4facfe;
+    border-top: 1px dotted #4facfe;
+    height: 60px;
+}
+::placeholder{
+    font-family: 'Source Serif Pro', serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#subit{
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    margin-left: 118px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Favicon/favicon_io(Tribute)/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tribute</title>
+
+</head>
+<style>
+    .box {
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        background-color: orange;
+        border-radius: 0px 30px 30px 0px;
+        color: white;
+        font-size: 1.5em;
+        top: 200px;
+        left: 0px;
+        animation-name: welcome;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        padding: 10px;
+        text-align: center;
+        /* animation-delay: 3s; */
+    }
+
+    #box2{
+        background-color: white;
+        color: blue;
+        /* animation-duration: 6s; */
+        top: 260px;
+        /* animation-delay: 2s; */
+    }
+    #box3{
+        /* animation-delay: 0s; */
+        /* animation-duration: 8s; */
+
+        background-color: green;
+        top:320px;
+    }
+
+    @keyframes welcome {
+        from {
+            width: 120px;
+            /* font-size: 1.5em; */
+            /* height: 30px; */
+        }
+
+        to {
+            width: 200px;
+            /* font-size: 2em; */
+            /* height: 40px; */
+        }
+    }
+</style>
+
+<body>
+    <div class="box">
+        Motivation
+    </div>
+    <div class="box" id="box2">
+        Success
+    </div>
+    <div class="box" id="box3">
+        Attitude
+    </div>
+    <div>
+        <div class="head">
+            Tribute to David Goggins
+        </div>
+
+
+        <div id="quo">
+            The Pain that you are willing to endure is measured by how bad you want it.-David Goggins
+        </div>
+
+        <div id="link">
+            <!-- Link to othr pages -->
+            <a href="./Achievements.htm" target="_blank"><i class="fa fa-trophy" aria-hidden="true"></i>  Achievements</a>
+            <a href="./lifestory.htm" target="_blank"><i class="fa fa-server" aria-hidden="true"></i>  Details</a>
+            <a href="./Career.html" target="_blank"><i class="fa fa-user-secret" aria-hidden="true"></i>  Career</a>
+        </div>
+        <span>
+            <div class="image">
+                <img src="./image/david-goggins-headshot_h.jpg" alt="">
+                <img src="./image/001.jpg" alt="">
+            </div>
+        </span>
+        <div class="bottom">
+            <a href="https://www.instagram.com/davidgoggins/"> <i class="fa fa-instagram" aria-hidden="true"></i>  David Goggins Instagram Page</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

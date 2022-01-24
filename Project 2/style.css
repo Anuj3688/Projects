@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-width: 100%;
+}
+
+.head{
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+table{
+    border-color: black;
+    border: 1px solid black;
+    margin: 10px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th{
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    transition: all 2s ;
+}
+
+td{
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    transition: all 5s ;
+}
+
+
+
+th:hover{
+    transform: rotate(360deg);
+}
+td:hover{
+    background-color: lightpink;
+    font-size: 40px;
+    border: 1px soild lightpink;
+}
+
+/* for desktop */
+@media screen and (min-width:769px) {
+    .head{
+        font-size: 80px;
+        background-color: lightgreen;
+    }
+
+    th , td{
+        font-size: 40px;
+        height: 60px;
+        width: 250px;
+        transition: all 2s;
+    }
+    td:hover{
+        background-color: lightyellow;
+        font-size: 40px;
+        border: 1px soild lightyellow;
+    }
+    .head:hover{
+        color: white;
+    }
+}
+
+/* for tablet */
+@media screen and (min-width:321px) and (max-width:768px) {
+    .head{
+        font-size: 50px;
+        background-color: lightblue;
+        color: white;
+    }
+
+    .head:hover{
+        color: black;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,110,1) 1%, rgba(0,212,255,1) 100%);
+    }
+    th , td{
+        font-size: 30px;
+        height: 40px;
+        width: 150px;
+        transition: all 1s;
+    }
+    td:hover{
+        background-color: lightskyblue;
+        color: white;
+        font-size: 40px;
+        border: 1px soild lightskyblue;
+    }
+}

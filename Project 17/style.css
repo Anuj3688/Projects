@@ -1,0 +1,108 @@
+.form1{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 290px;
+    height: 450px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.he{
+    text-align: center;
+}
+.label{
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+input{
+    border: none;
+}
+i{
+    color: grey;
+    font-size: 8px;
+}
+#login{
+    color: white;
+    margin-top: 20px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+body{
+    background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+    
+}
+#fp{
+    font-size: 14px;
+    margin-top: 2px;
+    display: inline-block;
+    float: right;
+    color: gray;
+}
+
+.inpu{
+    margin-top: 5px;
+}
+
+#twitter{
+    height: 20px;
+    width: 22px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    padding-top: 6px;
+    background-color: #00acee;
+}
+#facebook{
+    height: 20px;
+    width: 22px;
+    padding: 2px;
+    color: white;
+    background-color: #4267B2;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 50%;
+}
+.logo{
+    text-align: center;
+}
+.signup{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: gray;
+}
+.text{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: gray;
+}
+#google{
+    height: 20px;
+    width: 22px;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 6px;
+    background-color: #db4a39;
+}
+
+#sign{
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 95px;
+    color: gray;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: #24A19C;
+}
+
+.form-box{
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    box-shadow:1px 1px 42px -4px black;
+}
+
+.label-set-1{
+    display: inline-block;
+    width: 100px;
+}
+
+.text{
+    margin-left: 100px;
+}
+input[type=submit]{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #24A19C;
+    color: white;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid lightgreen;
+    border-radius: 2px;
+}
+
+

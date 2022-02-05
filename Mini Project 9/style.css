@@ -1,0 +1,81 @@
+body{
+    background-color: aqua;
+}
+
+#box1{
+    background-color: lightcoral;
+    /* border: 1px double white; */
+    border-radius: 20px;
+    padding: 20px;
+    height: 450px;
+    width: 280px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 33px -15px black;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    color: white;
+}
+#chek{
+    font-size: 15px;
+}
+#submit{
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    width: 90%;
+    height: 30px;
+    background-color: lawngreen;
+    color: gray;
+    transition: all 1s;
+    font-weight: 700;
+}
+
+#submit:hover{
+    background-color: white;
+    width: 100%;
+}
+
+input{
+    margin-top: 5px;
+}
+input[type=text]{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    transition: all 1s;
+}
+
+input[type=password]{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    transition: all 1s;
+}
+
+input[type=email]{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    transition: all 1s;
+}
+
+input[type=email]:hover{
+    width: 100%;
+}
+
+input[type=text]:hover{
+    width: 100%;
+}
+input[type=password]:hover{
+    width: 100%;
+}

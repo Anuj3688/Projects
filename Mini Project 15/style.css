@@ -1,21 +1,32 @@
 #form1{
     border: 1px solid gray;
     width: 350px;
-    height: 500px;
+    height: 550px;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 30px;
     background-color: white;
     margin: 20px auto;
+    box-shadow: 1px 1px 44px -10px black;
 }
 h1{
     text-align: center;
+    transition: all 1s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:hover{
+    transform: scale(1.4);
 }
 input{
     border: none;
     display: inline-block;
     width: 285px;
+    height: 30px;
+}
+
+input:hover{
+    border-left: 1px solid lightslategray;
 }
 select{
     margin-top: 5px;
@@ -39,7 +50,13 @@ textarea{
     border: none;
     background-color: #00DBDE;
 background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+color: white;
+    transition: all 2s;
+}
 
+#Sub:hover{
+    height:  40px;
+    font-size: 30px;
 }
 label{
     font-size: 13px;

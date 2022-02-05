@@ -54,4 +54,9 @@ textarea{
     border-radius: 20px;
     margin-left: 118px;
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    transition: all 1s   ;
+}
+
+#subit:hover{
+        transform: scale(1.4);
 }

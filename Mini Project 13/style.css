@@ -14,7 +14,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,110,1) 1%, rgba
     padding: 20px;
     width: 280px;
     background-color: white;
-    border-radius: 2px;
+    border-radius: 12px;
     margin: 40px auto;
 }
 a{
@@ -36,7 +36,32 @@ i {
     display: inline-block;
     width: 20px;
     text-align: center;
-    border: 1px solid darkgrey;
+    /* border: 1px solid darkgrey; */
     border-radius: 1px 0px 0px 1px;
-    background-color: rgb(224, 222, 222);
+    /* background-color: rgb(224, 222, 222); */
+  }
+
+  input[type=submit]{
+      border: none  ;
+      margin-top: 20px;
+      border-radius: 8px;
+  }
+
+  input[type = text] , input[type = email] , input[type = password] {
+      border: none;
+  }
+
+  .box{
+    border: 1px solid gray;
+    margin: 10px 0px 5px 0px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: gray;
+    border-radius: 10px;
+    text-align: justify;
+  }
+
+  .box:hover{
+      border-color: aqua;
   }

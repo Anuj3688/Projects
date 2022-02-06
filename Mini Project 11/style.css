@@ -1,0 +1,31 @@
+.button{
+    color: white;
+    background-color: coral;
+    border-color: coral;
+    transition: 1s all;
+}
+.button:hover{
+    transform: scale(1.4);
+}
+body{
+    background-color: cornsilk;
+}
+
+.box{
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -3px -3px 15px whitesmoke , 3px 3px 25px gray;
+}
+
+input[type = submit]{
+    width: 100px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+
+input{
+    border: none;
+}

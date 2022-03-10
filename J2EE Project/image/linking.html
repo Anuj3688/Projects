@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #baba , .ani{
+        animation-name: dancing;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+    @keyframes dancing {
+        from
+        {
+            box-shadow: 10px 10px 40px 5px lightgray; 
+        }
+        to{
+            box-shadow: 60px 40px 40px 5px lightgray;
+        }
+    }
+    a{
+        text-decoration: none;
+        transition: all 0.4s;
+        font-size: 20px;
+        color: tomato;
+    }
+
+    a:hover{
+        color: aquamarine;
+    }
+</style>
+<body>
+    <div style="text-align: center;" >
+        <h1 style="color: yellowgreen;"> Links to Different Pages</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi iste itaque sint enim tempora mollitia placeat accusamus suscipit. Quidem.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque odio optio voluptatem tempore molestiae deserunt accusantium quos, quas dolorem voluptatum.
+        </p>
+    </div>
+    <div  id="baba" style="width: 200px;border: 1px double li\
+    ;padding: 20px;border-radius: 10px;margin: 20px auto;box-shadow: 40px 40px 30px 5px lightgray;">
+        <a href="./home.htm" target="_blank">Home</a>
+        <hr>
+        <a href="./about.htm" target="_blank">About </a>
+        <hr>
+        <a href="./contact.htm" target="_blank"`>Contact</a>
+    </div>
+</body>
+
+</html>
